@@ -35,11 +35,6 @@ typedef struct _IPv4Header{
     uint srcaddr;
     uint dstaddr;
 }IPv4hdr;
-
-struct EthIpPacket {
-	EthHdr eth_;
-	IPv4hdr ip_;
-};
 #pragma pack(pop)
 
 char *my_ip;
